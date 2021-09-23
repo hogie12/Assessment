@@ -2,6 +2,7 @@ function anagram(words1, words2){
 if(words1.length !== words2.length){
     return false
 }
+
 let sortedWords1 = ''
 let sortedWords2 = ''
 let arrwords1 = []
